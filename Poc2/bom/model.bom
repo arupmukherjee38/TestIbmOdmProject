@@ -1,0 +1,40 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Poc2//Poc2-XOM"
+property uuid "daafcfd3-a6c3-47ea-840b-682f7e27df60"
+package test;
+
+
+public class EmpSalary
+{
+    public test.Salary salary;
+    public test.Salary salary1;
+    public test.Salary salary2;
+    public test.Salary salary3;
+    public EmpSalary(test.Salary arg1, test.Salary arg2, test.Salary arg3, test.Salary arg4);
+    public EmpSalary();
+    public test.EmpSalary inputAsString(string arg);
+    public string toJson();
+}
+
+public class Output
+{
+    public test.Salary salary;
+    public test.Salary salary1;
+    public test.Salary salary2;
+    public test.Salary salary3;
+    public Output(int arg1, int arg2, int arg3)
+                property deprecated "true";
+    public Output(test.Salary arg1, test.Salary arg2, test.Salary arg3, test.Salary arg4);
+    public Output();
+    public string toJson();
+}
+
+public class Salary
+{
+    public int bonus;
+    public int squence;
+    public Salary(int arg1, int arg2);
+    public Salary();
+}
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>vars</name>
+  <uuid>d1826067-e892-407c-aba4-a7acc44011d3</uuid>
+  <variables name="empsal" type="test.EmpSalary" initialValue="" verbalization="empsal"/>
+  <variables name="output" type="test.Output" initialValue="new test.Output()" verbalization="output"/>
+  <variables name="eff" type="int" initialValue="0" verbalization="eff"/>
+  <variables name="a" type="int" initialValue="0" verbalization="a"/>
+  <variables name="d" type="int" initialValue="0" verbalization="d"/>
+  <variables name="dt" type="int" initialValue="0" verbalization="dt"/>
+  <variables name="E" type="test.Salary" initialValue="new  test.Salary()" verbalization="E"/>
+  <variables name="D" type="test.Salary" initialValue="new  test.Salary()" verbalization="D"/>
+  <variables name="A" type="test.Salary" initialValue="new  test.Salary()" verbalization="A"/>
+  <variables name="DT" type="test.Salary" initialValue="new  test.Salary()" verbalization="DT"/>
+</ilog.rules.studio.model.base:VariableSet>

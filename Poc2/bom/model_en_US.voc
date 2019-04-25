@@ -1,0 +1,38 @@
+# Vocabulary Properties
+uuid = c354811a-13be-4aea-a8cf-63e62298daa0
+
+# test.EmpSalary
+test.EmpSalary#concept.label = emp salary
+test.EmpSalary.inputAsString(java.lang.String)#phrase.action = {this}.inputAsString({0})
+test.EmpSalary.inputAsString(java.lang.String)#phrase.navigation = {this}.inputAsString({0})
+test.EmpSalary.salary#phrase.action = set the salary of {this} to {salary}
+test.EmpSalary.salary#phrase.navigation = {salary} of {this}
+test.EmpSalary.salary1#phrase.action = set the salary1 of {this} to {salary1}
+test.EmpSalary.salary1#phrase.navigation = {salary1} of {this}
+test.EmpSalary.salary2#phrase.action = set the salary2 of {this} to {salary2}
+test.EmpSalary.salary2#phrase.navigation = {salary2} of {this}
+test.EmpSalary.salary3#phrase.action = set the salary3 of {this} to {salary3}
+test.EmpSalary.salary3#phrase.navigation = {salary3} of {this}
+test.EmpSalary.toJson()#phrase.navigation = {this}.toJson()
+
+# test.Output
+test.Output#concept.label = output
+test.Output.salary#phrase.action = set the salary of {this} to {salary}
+test.Output.salary#phrase.navigation = {salary} of {this}
+test.Output.salary1#phrase.action = set the salary1 of {this} to {salary1}
+test.Output.salary1#phrase.clearer = clear the salary1 of {this}
+test.Output.salary1#phrase.navigation = {salary1} of {this}
+test.Output.salary2#phrase.action = set the salary2 of {this} to {salary2}
+test.Output.salary2#phrase.clearer = clear the salary2 of {this}
+test.Output.salary2#phrase.navigation = {salary2} of {this}
+test.Output.salary3#phrase.action = set the salary3 of {this} to {salary3}
+test.Output.salary3#phrase.clearer = clear the salary3 of {this}
+test.Output.salary3#phrase.navigation = {salary3} of {this}
+test.Output.toJson()#phrase.navigation = {this}.toJson()
+
+# test.Salary
+test.Salary#concept.label = salary
+test.Salary.bonus#phrase.action = set the bonus of {this} to {bonus}
+test.Salary.bonus#phrase.navigation = {bonus} of {this}
+test.Salary.squence#phrase.action = set the squence of {this} to {squence}
+test.Salary.squence#phrase.navigation = {squence} of {this}
