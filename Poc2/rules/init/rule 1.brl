@@ -23,5 +23,7 @@ set the salary3 of output to the salary3 of empsal ;
 
 print "Hello";
 
+print "India Hello";
+
 print eff +","+ a +","+ d +","+ dt ; ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
