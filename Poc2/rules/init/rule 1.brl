@@ -21,7 +21,7 @@ set the salary1 of output to the salary1 of empsal ;
 set the salary2 of output to the salary2 of empsal ;
 set the salary3 of output to the salary3 of empsal ;
 
-print "Hello";
+print "Arup Hello";
 
 print "India Hello";
 
